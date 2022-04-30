@@ -1,0 +1,79 @@
+body{
+    background-image:url("https://preview.pixlr.com/images/800wm/100/1/1001152062.jpg");   
+    }
+    #title{
+        color:darkgoldenrod;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+    }
+    #description{
+        font-weight: bold;
+    }
+    input[type=text]{
+        margin-bottom: 20px;
+        margin-left: 30px;
+        width:90%;
+        border-radius: 10px;
+        background-color:rgb(222, 233, 233);
+    
+    }
+    #first-name,#last-name,#address{
+        margin-bottom: 20px;
+        margin-left: 30px;
+        width:90%;
+        border-radius: 10px;
+        background-color:rgb(222, 233, 233);
+    
+    }
+    label{
+        margin-right: 30px;
+        margin-left: 20px;
+    }
+    #pincode,#state,#country{
+        width:25%;
+    
+    }
+    
+    #state{
+        margin-left: 50px;
+    }
+    input[type=radio]{
+        margin-bottom: 20px;
+        margin-left: 30px;
+    
+    }
+    #rowheader{
+        text-align: center;
+        font-weight: bold;
+        border-style: double;
+        border-color: brown;
+    }
+    #table1{
+        display:none;
+    }
+    #line{
+        text-align: center;
+        border-style: double;
+        border-color: brown;
+    }
+    #Firstname,#Lastname,#Address,#Pincode,#Genders,#Choice,#State,#Country{
+        font-weight: bold;
+        text-transform:capitalize;
+        color: brown;
+
+    }
+    #hcol1, #hcol2, #hcol3, #hcol4, #hcol5, #hcol6, #hcol7, #hcol8,#col1, #col2, #col3, #col4, #col5, #col6, #col7, #col8{
+        padding:10px;
+        border-style: double;
+        border-color: brown;
+    }
+ #submit{
+        color: brown;
+        font-weight: bold;
+        background-color:darkkhaki;
+        padding:5px;
+        border-radius: 5px;
+        text-transform: uppercase;
+    }
